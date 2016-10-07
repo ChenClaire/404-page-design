@@ -1,0 +1,144 @@
+html {
+    min-height: 100%;
+}
+
+.first-page {
+    width: 100%;
+    min-height: 100%;
+    background-image: radial-gradient(center center, circle cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.48) 100%);
+    background-image: -webkit-radial-gradient(center center, circle cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.48) 100%);
+    background-image: -moz-radial-gradient(center center, circle cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.48) 100%);
+    background-image: -o-radial-gradient(center center, circle cover, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.48) 100%);
+}
+
+.first-page .theContainer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8% 90px;
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+}
+
+.sad .white {
+    transform-origin: -50% -100%;
+    -webkit-animation: slide-down 6s ease-in-out infinite;
+    -moz-animation: slide-down 6s ease-in-out infinite;
+    animation: slide-down 6s ease-in-out infinite;
+}
+
+.pic {
+    margin-bottom: 50px;
+}
+
+.pic svg {
+    overflow: visible;
+}
+
+@-moz-keyframes slide-down {
+    50% {
+        -moz-transform: rotate(55deg);
+    }
+}
+
+@-webkit-keyframes slide-down {
+    50% {
+        -webkit-transform: rotate(55deg);
+    }
+}
+
+@keyframes slide-down {
+    50% {
+        -webkit-transform: rotate(55deg);
+        transform: rotate(55deg);
+    }
+}
+
+.power-plug-wrapper,
+.outlet-wrapper {
+    display: inline-block;
+}
+
+.outlet-wrapper {
+    margin-right: 70px;
+}
+
+.plugin {
+    transform-origin: 50% 0px;
+    -webkit-animation: power-plug 6s ease-in-out infinite;
+    -moz-animation: power-plug 6s ease-in-out infinite;
+    animation: power-plug 6s ease-in-out infinite;
+}
+
+@-moz-keyframes power-plug {
+    0% {
+        -moz-transform: rotate(-10deg);
+    }
+    50% {
+        -moz-transform: rotate(10deg);
+    }
+    100% {
+        -moz-transform: rotate(-10deg);
+    }
+}
+
+@-webkit-keyframes power-plug {
+    0% {
+        -webkit-transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+    }
+}
+
+@keyframes power-plug {
+    0% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+.error-code{
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.error-msg {
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#go-home,
+#go-back {
+    text-decoration: none;
+    padding: 12px 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#go-home:hover,
+#go-back:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+

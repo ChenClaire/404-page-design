@@ -1,0 +1,47 @@
+
+<svg width="506px" height="202px" viewBox="502 494 506 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200" height="180"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="180" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M18.6071938,0.790384591 C18.9302026,0.353867235 19.6451001,0 20.1977812,0 L119.802219,0 C120.357667,0 121.079252,0.362098217 121.403372,0.804944336 C121.403372,0.804944336 140,25 140,50 C140,75 121.392806,99.2096265 121.392806,99.2096265 C121.069797,99.6461377 120.3549,100 119.802219,100 L20.1977812,100 C19.6423328,100 18.9207481,99.6379163 18.5966277,99.1950874 C18.5966277,99.1950874 1.45716772e-15,75.0010365 0,50.0006932 C0,25.0003498 18.6071938,0.790384591 18.6071938,0.790384591 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="140" height="100" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="144" height="104">
+            <rect x="-2" y="-2" width="144" height="104" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="500" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(502.000000, 497.000000)">
+        <g id="outlet" transform="translate(0.000000, 3.000000)">
+            <use id="Rectangle" stroke="#F6F6F6" mask="url(#mask-2)" stroke-width="8" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="oh" transform="translate(30.000000, 43.000000)">
+                <g id="base">
+                    <use stroke="#E4E4E4" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="#F6F6F6" mask="url(#mask-5)" stroke-width="4" xlink:href="#path-3"></use>
+                </g>
+                <path d="M90,75.71875 C90,65.9329546 81.2695526,58 70.5,58 C59.7304474,58 51,65.9329546 51,75.71875 L70.4856427,75.71875 L90,75.71875 Z M51,75.71875 L70.4856427,75.71875 L90,75.71875 L90,77.9976875 C90,78.5512494 89.5620117,79 88.9967579,79 L52.0032421,79 C51.4491668,79 51,78.5437562 51,77.9976875 L51,75.71875 Z" id="hole3" fill="#747474"></path>
+                <rect id="hole2" fill="#747474" x="39" y="21" width="10" height="27" rx="1"></rect>
+                <rect id="hole1" fill="#747474" x="90.5253786" y="21" width="10" height="27" rx="1"></rect>
+            </g>
+            <circle id="srew4" stroke="#F6F6F6" fill="#E5E5E5" cx="12.5" cy="167.5" r="2.5"></circle>
+            <circle id="srew3" stroke="#F6F6F6" fill="#E5E5E5" cx="187.5" cy="167.5" r="2.5"></circle>
+            <circle id="srew2" stroke="#F6F6F6" fill="#E5E5E5" cx="187.5" cy="12.5" r="2.5"></circle>
+            <circle id="srew1" stroke="#F6F6F6" fill="#E5E5E5" cx="12.5" cy="12.5" r="2.5"></circle>
+        </g>
+        <g id="plugin" transform="translate(347.000000, 35.000000)">
+            <path d="M84.9713902,107.999987 C84.1433401,79.1031949 65.4451118,56 42.5,56 C19.5548882,56 0.856659942,79.1031949 0.0286097911,107.999987 L0,108 L0,120.000578 C0,121.655649 1.34324782,123 3.00022799,123 L81.999772,123 C83.664853,123 85,121.657113 85,120.000578 L85,108 L84.9713906,108 Z" id="body" fill="#747474"></path>
+            <path d="M43,33.735971 L43,5.68434189e-14 L43,33.735971 Z" id="line" stroke="#DFDFDF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="stick1" fill="#DFDFDF" x="22" y="123" width="6" height="25"></rect>
+            <rect id="stick2" fill="#DFDFDF" x="58" y="123" width="6" height="25"></rect>
+            <rect id="connect" fill="#747474" x="33" y="34" width="20" height="25" rx="2"></rect>
+            <rect id="end1" fill="#747474" x="33" y="25" width="20" height="7" rx="2"></rect>
+            <rect id="end2" fill="#747474" x="33" y="16" width="20" height="7" rx="2"></rect>
+        </g>
+        <path d="M390,35.8207015 C390,31.0679753 392.075893,20.5978316 395.369823,15.9914904 C405.061866,2.43781507 455.019192,-2.71024811 466.604454,9.45362584 C481.752782,25.3585188 448.043288,43.5726151 436.291187,34.6413706 C424.832637,25.9332164 438.768081,13.8624138 446.989618,9.23181227 C464.41405,-0.582118704 484.517224,-2.60534905 503.493177,3.324303" id="line" stroke="#DFDFDF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
