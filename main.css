@@ -65,6 +65,15 @@ html {
     margin-right: 70px;
 }
 
+.flash{
+    animation: blinker 1s ease-out infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+@-webkit-keyframes blinker {  
+  50% { opacity: 0; }
+}
 .plugin {
     transform-origin: 50% 0px;
     -webkit-animation: power-plug 6s ease-in-out infinite;
@@ -74,40 +83,40 @@ html {
 
 @-moz-keyframes power-plug {
     0% {
-        -moz-transform: rotate(-10deg);
+        -moz-transform: rotate(-7deg);
     }
     50% {
-        -moz-transform: rotate(10deg);
+        -moz-transform: rotate(7deg);
     }
     100% {
-        -moz-transform: rotate(-10deg);
+        -moz-transform: rotate(-7deg);
     }
 }
 
 @-webkit-keyframes power-plug {
     0% {
-        -webkit-transform: rotate(-10deg);
+        -webkit-transform: rotate(-7deg);
     }
     50% {
-        -webkit-transform: rotate(10deg);
+        -webkit-transform: rotate(7deg);
     }
     100% {
-        -webkit-transform: rotate(-10deg);
+        -webkit-transform: rotate(-7deg);
     }
 }
 
 @keyframes power-plug {
     0% {
-        -webkit-transform: rotate(-10deg);
-        transform: rotate(-10deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
     }
     50% {
-        -webkit-transform: rotate(10deg);
-        transform: rotate(10deg);
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
     }
     100% {
-        -webkit-transform: rotate(-10deg);
-        transform: rotate(-10deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
     }
 }
 .error-code{
