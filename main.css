@@ -22,19 +22,20 @@ html {
     width: 90%;
 }
 
-.sad .white {
-    transform-origin: -50% -100%;
-    -webkit-animation: slide-down 6s ease-in-out infinite;
-    -moz-animation: slide-down 6s ease-in-out infinite;
-    animation: slide-down 6s ease-in-out infinite;
-}
-
 .pic {
     margin-bottom: 50px;
 }
 
 .pic svg {
     overflow: visible;
+}
+
+
+.sad .white {
+    transform-origin: -50% -100%;
+    -webkit-animation: slide-down 6s ease-in-out infinite;
+    -moz-animation: slide-down 6s ease-in-out infinite;
+    animation: slide-down 6s ease-in-out infinite;
 }
 
 @-moz-keyframes slide-down {
@@ -65,6 +66,8 @@ html {
     margin-right: 70px;
 }
 
+
+
 .flash{
     animation: blinker 1s ease-out infinite;
 }
@@ -74,6 +77,9 @@ html {
 @-webkit-keyframes blinker {  
   50% { opacity: 0; }
 }
+
+
+
 .plugin {
     transform-origin: 50% 0px;
     -webkit-animation: power-plug 6s ease-in-out infinite;
